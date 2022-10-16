@@ -10,7 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-  background-color: aquamarine;
+  background-color: white;
   list-style: none;
 }
 
@@ -22,45 +22,26 @@ body {
   margin-bottom: 10px;
   margin-top: 30px;
   border: 10px solid skyblue;
-  border-image: linear-gradient(
-    to right top,
-    blue,
-    rgb(201, 220, 79),
-    rgb(41, 224, 25),
-    rgb(26, 34, 80),
-    rgb(26, 34, 167)
-  );
+ 
+  
   border-image-slice: 1;
-  background-color: aqua;
+  background-color: white;
+  border-radius: 20px;
 }
 
 #search-box:hover,
 #search-box:focus {
-  border: 10px solid skyblue;
-  border-image: linear-gradient(
-    to right top,
-    blue,
-    rgb(201, 220, 79),
-    rgb(41, 224, 25)
-  );
-  border-image-slice: 1;
-  background-color: aqua;
+background-color: rgb(255, 255, 255);
+
 }
 
-.earth {
-  width: 584px;
-  height: 584px;
-  background: url(https://images.squarespace-cdn.com/content/v1/54075bc0e4b010adbe14e8f3/1606245729503-OPYLHOC4JVIIF03TZOJQ/Native+Lands+Acknowledgment.jpg);
-  border-radius: 50%;
-  background-size: 600px;
-  box-shadow: inset 20px 0 20px 20px rgb(0, 0, 0);
-  margin-top: 20px;
-  margin-left: 0;
-}
+
 
 .country-info {
-  font-style: italic;
+  font-style: bold;
   margin-left: 0;
+   text-align: center;
+    max-width: 320px;
 }
 
 .country-list {
@@ -68,9 +49,14 @@ body {
   list-style: none;
   align-items: center;
   margin-left: 0;
+ 
+
 }
 
 .wrapper {
-  display: flex;
-  width: 1600px;
+ 
+ max-width: 500px;
+ margin: 0 auto;
+
+  
 }
