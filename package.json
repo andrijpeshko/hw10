@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://andrijpeshko/hw8-00",
+  "homepage": "https://andrijpeshko/hw10",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hw8-00/"
+    "build": "parcel build src/*.html --public-url /hw10/"
   },
   "repository": {
     "type": "git",
